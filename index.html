@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive card details form</title>
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="container">
+        <div id="box1">
+            <img id="bg" src="img/bg-main-mobile.png" alt="bg-img">
+            <img id="backCard" src="img/bg-card-back.png" alt="Card Back">
+            <img id="frontCard" src="img/bg-card-front.png" alt="Card Front">
+        </div>
+        <div id="box2">
+            <div id="innerbox">
+                <form action="">
+                    <div class="lable namebox">
+                        <label for="name">CARDHOLDER NAME</label>
+                    </div>
+                    <div class="inputfield namebox">
+                        <input type="text" name="name" id="name" placeholder="e.g. Nishanth Balaji">
+                    </div>
+
+                    <div class="lable cardnumber">
+                        <label for="cardNumber">CARD NUMBER</label>
+                    </div>
+                    <div class="inputfield cardnumber">
+                        <input type="number" name="cardNumber" id="cardNumber" placeholder="e.g. 9661 7543 6546 8765">
+                    </div>
+
+                    <div class="lable date">
+                        <label for="exp">EXP. DATE (MM/YY)</label>
+                        <label for="cvv" id="cvvlable">CVV</label>
+                    </div>
+                    <div class="inputfield date" id="date-cvv">
+
+                        <input type="number" name="expm" id="expiryMonth" placeholder="MM">
+                        <input type="number" name="expy" id="expiryYear" placeholder="YY">
+                        <input type="number" name="cvv" id="cvv" placeholder="e.g. 356">
+
+                    </div>
+                    <div id="submit">
+                        <button type="submit">Confirm</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/NishanthBalaji" target="_blank">Nishanth Balaji</a>.
+        </div>
+
+    </section>
+
+</body>
+
+</html>

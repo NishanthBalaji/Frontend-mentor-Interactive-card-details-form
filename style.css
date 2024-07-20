@@ -1,0 +1,130 @@
+html {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#box1 {
+    height: 340px;
+    width: 100%;
+}
+
+img#bg {
+    width: 100%;
+    height: 240px;
+}
+
+#backCard {
+    position: absolute;
+    top: 15%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+#frontCard {
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+p {
+    display:
+}
+
+#box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#expiryMonth,
+#expiryYear,
+#cvv {
+    width: 10%;
+}
+
+.inputfield {
+    display: block;
+}
+
+
+#innerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.lable {
+    padding-top: 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 16px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+#expiryYear {
+    margin-left: 25px;
+}
+
+#cvv {
+    margin-left: 42px;
+    width: 85px;
+}
+
+#cvvlable {
+    margin-left: 40px;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+
+}
+
+button {
+    padding: 16px;
+    width: 100%;
+    background-color: #3c1446;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
