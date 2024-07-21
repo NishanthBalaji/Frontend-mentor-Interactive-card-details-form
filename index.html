@@ -30,6 +30,7 @@
     <section id="container">
         <div id="box1">
             <img id="bg" src="img/bg-main-mobile.png" alt="bg-img">
+            <img id="bg-desktop" src="img/bg-main-desktop.png" alt="bg-img">
             <img id="backCard" src="img/bg-card-back.png" alt="Card Back">
             <img id="frontCard" src="img/bg-card-front.png" alt="Card Front">
         </div>
@@ -37,28 +38,28 @@
             <div id="innerbox">
                 <form action="">
                     <div class="lable namebox">
-                        <label for="name">CARDHOLDER NAME</label>
+                        <label for="name">CARDHOLDER NAME<sup>*</sup></label>
                     </div>
                     <div class="inputfield namebox">
                         <input type="text" name="name" id="name" placeholder="e.g. Nishanth Balaji">
                     </div>
 
                     <div class="lable cardnumber">
-                        <label for="cardNumber">CARD NUMBER</label>
+                        <label for="cardNumber">CARD NUMBER<sup>*</sup></label>
                     </div>
                     <div class="inputfield cardnumber">
                         <input type="number" name="cardNumber" id="cardNumber" placeholder="e.g. 9661 7543 6546 8765">
                     </div>
 
                     <div class="lable date">
-                        <label for="exp">EXP. DATE (MM/YY)</label>
-                        <label for="cvv" id="cvvlable">CVV</label>
+                        <label for="exp">EXP. DATE (MM/YY)<sup>*</sup></label>
+                        <label for="cvv" id="cvvlable">CVV<sup>*</sup></label>
                     </div>
                     <div class="inputfield date" id="date-cvv">
 
                         <input type="number" name="expm" id="expiryMonth" placeholder="MM">
                         <input type="number" name="expy" id="expiryYear" placeholder="YY">
-                        <input type="number" name="cvv" id="cvv" placeholder="e.g. 356">
+                        <input type="number" name="cvv" id="cvv" placeholder="e.g. 356" min="100" max="999">
 
                     </div>
                     <div id="submit">
