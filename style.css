@@ -1,6 +1,7 @@
 html {
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
+    overflow: hidden;
 
 }
 
@@ -9,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    overflow: hidden;
 }
 
 
@@ -38,9 +40,9 @@ img#bg {
 #backCard {
     position: absolute;
     top: 15%;
-    left: 58%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 280px;
 }
 
 #frontCard {
@@ -48,11 +50,15 @@ img#bg {
     top: 29%;
     left: 45%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 280px;
 }
 
-p {
-    display:
+#displayname {
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    color: white;
+
 }
 
 #box2 {
@@ -127,6 +133,8 @@ input {
 
 }
 
+
+
 button {
     padding: 16px;
     width: 100%;
@@ -176,6 +184,15 @@ button {
         width: 500px;
     }
 
+    #displayname {
+        position: absolute;
+        top: 35%;
+        left: -7%;
+        color: white;
+        font-size: x-large;
+
+    }
+
     #box2 {
         position: absolute;
         top: 25%;
@@ -186,5 +203,170 @@ button {
         position: absolute;
         top: 75%;
         left: 67%;
+    }
+}
+
+@media (min-width: 400px) {
+    #displayname {
+        margin-left: 4%;
+    }
+}
+
+/* Starting from 450px */
+@media (min-width: 450px) {
+    #displayname {
+        margin-left: 6%;
+    }
+}
+
+/* Starting from 500px */
+@media (min-width: 500px) {
+    #displayname {
+        margin-left: 8%;
+    }
+}
+
+/* Starting from 550px */
+@media (min-width: 550px) {
+    #displayname {
+        margin-left: 10%;
+    }
+}
+
+/* Starting from 600px */
+@media (min-width: 600px) {
+    #displayname {
+        margin-left: 12%;
+    }
+}
+
+/* Starting from 650px */
+@media (min-width: 650px) {
+    #displayname {
+        margin-left: 14%;
+    }
+}
+
+/* Starting from 700px */
+@media (min-width: 700px) {
+    #displayname {
+        margin-left: 15%;
+    }
+}
+
+/* Starting from 750px */
+@media (min-width: 750px) {
+    #displayname {
+        margin-left: 16%;
+    }
+}
+
+/* Starting from 800px */
+@media (min-width: 800px) {
+    #displayname {
+        margin-left: 17%;
+    }
+}
+
+/* Starting from 850px */
+@media (min-width: 850px) {
+    #displayname {
+        margin-left: 18%;
+    }
+}
+
+/* Starting from 900px */
+@media (min-width: 900px) {
+    #displayname {
+        margin-left: 19%;
+    }
+}
+
+/* Starting from 950px */
+@media (min-width: 950px) {
+    #displayname {
+        margin-left: 19.5%;
+    }
+}
+
+/* Starting from 1000px */
+@media (min-width: 1000px) {
+    #displayname {
+        margin-left: 20%;
+    }
+}
+
+/* Starting from 1050px */
+@media (min-width: 1050px) {
+    #displayname {
+        margin-left: 20.5%;
+    }
+}
+
+/* Starting from 1100px */
+@media (min-width: 1100px) {
+    #displayname {
+        margin-left: 21%;
+    }
+}
+
+/* Starting from 1150px */
+@media (min-width: 1150px) {
+    #displayname {
+        margin-left: 22%;
+    }
+}
+
+/* @media (min-width: 1200px) {
+    #displayname {
+        margin-left: 22.5%;
+    }
+} */
+
+@media (min-width: 1200px) {
+    #displayname {
+        position: absolute;
+        top: 36%;
+        left: -12%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #displayname {
+        position: absolute;
+        top: 36%;
+        left: -11%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #displayname {
+        position: absolute;
+        top: 36%;
+        left: -10%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #displayname {
+        position: absolute;
+        top: 36%;
+        left: -9.5%;
+    }
+}
+
+@media (min-width: 1500px) {
+    #displayname {
+        position: absolute;
+        top: 36%;
+        left: -8.5%;
+    }
+}
+
+@media (min-width: 1600px) {
+    #displayname {
+        position: absolute;
+        top: 36%;
+        left: -7.5%;
     }
 }
