@@ -33,7 +33,8 @@
             <img id="bg-desktop" src="img/bg-main-desktop.png" alt="bg-img">
             <img id="backCard" src="img/bg-card-back.png" alt="Card Back">
             <img id="frontCard" src="img/bg-card-front.png" alt="Card Front">
-            <div id="displayname"></div>
+            <div id="displayname">CARDHOLDER NAME</div>
+            <div id="displaynumber">1234 5677 1234 5678</div>
         </div>
         <div id="box2">
             <div id="innerbox">
@@ -42,14 +43,15 @@
                         <label for="name">CARDHOLDER NAME<sup>*</sup></label>
                     </div>
                     <div class="inputfield namebox">
-                        <input type="text" name="name" id="name" placeholder="e.g. Nishanth Balaji">
+                        <input type="text" name="name" id="name" placeholder="e.g. Nishanth Balaji" required>
                     </div>
 
                     <div class="lable cardnumber">
                         <label for="cardNumber">CARD NUMBER<sup>*</sup></label>
                     </div>
                     <div class="inputfield cardnumber">
-                        <input type="number" name="cardNumber" id="cardNumber" placeholder="e.g. 9661 7543 6546 8765">
+                        <input type="number" name="cardNumber" id="cardNumber" placeholder="e.g. 9661 7543 6546 8765"
+                            maxlength="16" required title="Card number must be exactly 16 digits">
                     </div>
 
                     <div class="lable date">
@@ -58,9 +60,9 @@
                     </div>
                     <div class="inputfield date" id="date-cvv">
 
-                        <input type="number" name="expm" id="expiryMonth" placeholder="MM">
-                        <input type="number" name="expy" id="expiryYear" placeholder="YY">
-                        <input type="number" name="cvv" id="cvv" placeholder="e.g. 356" min="100" max="999">
+                        <input type="number" name="expm" id="expiryMonth" placeholder="MM" required>
+                        <input type="number" name="expy" id="expiryYear" placeholder="YY" required>
+                        <input type="number" name="cvv" id="cvv" placeholder="e.g. 356" min="100" max="999" required>
 
                     </div>
                     <div id="submit">

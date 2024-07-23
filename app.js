@@ -1,14 +1,6 @@
 let name = document.querySelector('#name');
 let displayname = document.querySelector('#displayname');
 
-// function capitalizeFirstLetter(string) {
-//     return string.charAt(0).toUpperCase() + string.slice(1);
-// }
-
-// name.addEventListener('input', () => {
-//     displayname.innerText = capitalizeFirstLetter(name.value);
-// });
-
 function capitalizeWords(string) {
     return string
         .split(' ')  // Split the string by spaces
@@ -18,4 +10,23 @@ function capitalizeWords(string) {
 
 name.addEventListener('input', () => {
     displayname.innerText = capitalizeWords(name.value);
+});
+
+let cardNumber = document.querySelector('#cardNumber');
+let displaynumber = document.querySelector('#displaynumber');
+
+cardNumber.addEventListener('input', () => {
+    let value = cardNumber.value;
+    if (value.length <= 16) {
+        let display = '';
+        for (let i = 0; i < value.length; i += 4) {
+            if (i > 0) {
+                display += ' ';
+            }
+            display += value.substr(i, 4);
+        }
+        displaynumber.innerText = display;
+    }
+
+
 });
