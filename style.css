@@ -71,6 +71,14 @@ img#bg {
 
 }
 
+#displayexpiry {
+    position: absolute;
+    top: 34.7%;
+    right: 24%;
+    color: white;
+    font-size: medium;
+}
+
 #box2 {
     display: flex;
     align-items: center;
@@ -212,6 +220,13 @@ button {
 
     }
 
+    #displayexpiry {
+        top: 34.5%;
+        left: 41%;
+        font-size: x-large;
+
+    }
+
     #box2 {
         position: absolute;
         top: 25%;
@@ -219,9 +234,11 @@ button {
     }
 
     .attribution {
-        position: absolute;
-        top: 75%;
+        position: fixed;
+        top: 590px;
+        bottom: 180px;
         left: 67%;
+
     }
 }
 
@@ -230,6 +247,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 4%;
+    }
+
+    #displayexpiry {
+        margin-right: 2%;
     }
 }
 
@@ -240,6 +261,10 @@ button {
     #displaynumber {
         margin-left: 6%;
     }
+
+    #displayexpiry {
+        margin-right: 4.5%;
+    }
 }
 
 /* Starting from 500px */
@@ -248,6 +273,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 8%;
+    }
+
+    #displayexpiry {
+        margin-right: 6%;
     }
 }
 
@@ -258,6 +287,10 @@ button {
     #displaynumber {
         margin-left: 10%;
     }
+
+    #displayexpiry {
+        margin-right: 8%;
+    }
 }
 
 /* Starting from 600px */
@@ -266,6 +299,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 12%;
+    }
+
+    #displayexpiry {
+        margin-right: 10%;
     }
 }
 
@@ -276,6 +313,10 @@ button {
     #displaynumber {
         margin-left: 14%;
     }
+
+    #displayexpiry {
+        margin-right: 12%;
+    }
 }
 
 /* Starting from 700px */
@@ -284,6 +325,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 15%;
+    }
+
+    #displayexpiry {
+        margin-right: 14%;
     }
 }
 
@@ -294,6 +339,10 @@ button {
     #displaynumber {
         margin-left: 16%;
     }
+
+    #displayexpiry {
+        margin-right: 14%;
+    }
 }
 
 /* Starting from 800px */
@@ -302,6 +351,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 17%;
+    }
+
+    #displayexpiry {
+        margin-right: 16%;
     }
 }
 
@@ -312,6 +365,10 @@ button {
     #displaynumber {
         margin-left: 18%;
     }
+
+    #displayexpiry {
+        margin-right: 17%;
+    }
 }
 
 /* Starting from 900px */
@@ -320,6 +377,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 19%;
+    }
+
+    #displayexpiry {
+        margin-right: 18%;
     }
 }
 
@@ -330,6 +391,10 @@ button {
     #displaynumber {
         margin-left: 19.5%;
     }
+
+    #displayexpiry {
+        margin-right: 18.5%;
+    }
 }
 
 /* Starting from 1000px */
@@ -338,6 +403,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 20%;
+    }
+
+    #displayexpiry {
+        margin-right: 19%;
     }
 }
 
@@ -348,6 +417,10 @@ button {
     #displaynumber {
         margin-left: 20.5%;
     }
+
+    #displayexpiry {
+        margin-right: 19.5%;
+    }
 }
 
 /* Starting from 1100px */
@@ -357,6 +430,10 @@ button {
     #displaynumber {
         margin-left: 21%;
     }
+
+    #displayexpiry {
+        margin-right: 20%;
+    }
 }
 
 /* Starting from 1150px */
@@ -365,6 +442,10 @@ button {
     #displayname,
     #displaynumber {
         margin-left: 21.5%;
+    }
+
+    #displayexpiry {
+        margin-right: 20.5%;
     }
 }
 
@@ -377,7 +458,7 @@ button {
 @media (min-width: 1200px) {
 
     #displayname {
-        top: 36%;
+        top: 35%;
         left: -12%;
     }
 
@@ -390,7 +471,7 @@ button {
 @media (min-width: 1300px) {
 
     #displayname {
-        top: 36%;
+        top: 35%;
         left: -11%;
     }
 
@@ -398,38 +479,35 @@ button {
         top: 28%;
         left: -11%;
     }
-}
 
-@media (min-width: 1400px) {
-
-    #displayname {
-        top: 36%;
-        left: -10%;
-    }
-
-    #displaynumber {
-        top: 28%;
-        left: -10%;
+    #displayexpiry {
+        top: 34.5%;
+        left: 40%;
     }
 }
 
 @media (min-width: 1400px) {
 
     #displayname {
-        top: 36%;
+        top: 35%;
         left: -9.5%;
     }
 
     #displaynumber {
         top: 28%;
         left: -9.5%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 38%;
     }
 }
 
 @media (min-width: 1500px) {
 
     #displayname {
-        top: 36%;
+        top: 35%;
         left: -8.5%;
     }
 
@@ -442,7 +520,7 @@ button {
 @media (min-width: 1600px) {
 
     #displayname {
-        top: 36%;
+        top: 35%;
         left: -7.5%;
     }
 
@@ -455,7 +533,7 @@ button {
 @media (min-width: 1700px) {
 
     #displayname {
-        top: 36%;
+        top: 35%;
         left: -7%;
     }
 

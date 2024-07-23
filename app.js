@@ -30,3 +30,29 @@ cardNumber.addEventListener('input', () => {
 
 
 });
+
+let month = document.querySelector('#expiryMonth');
+let year = document.querySelector('#expiryYear');
+let displayexpiry = document.querySelector('#displayexpiry');
+
+month.addEventListener('input', (e) => {
+    let mon = e.target.value;
+    if (mon.length < 3) {
+        if (mon < 10) {
+            displayexpiry.innerText = `0${mon}/`;
+        }
+        else {
+            displayexpiry.innerText = `${mon}/`;
+        }
+    }
+    console.log(displayexpiry.innerHTML);
+})
+
+year.addEventListener('input', (e) => {
+    let ye = e.target.value;
+    if (ye.length < 3) {
+        if (ye > 23 && ye < 100) {
+            displayexpiry.innerText = displayexpiry.innerHTML + ye;
+        }
+    }
+})
