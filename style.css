@@ -266,9 +266,9 @@ button {
 
     .attribution {
         position: fixed;
-        top: 590px;
+        top: 610px;
         bottom: 180px;
-        left: 67%;
+        left: 64.5%;
 
     }
 }
@@ -727,5 +727,96 @@ button {
     #logo {
         top: 12%;
         left: -7%;
+    }
+}
+
+@media (min-width: 1800px) {
+
+    #displayname {
+        top: 35%;
+        left: -7%;
+    }
+
+    #displaynumber {
+        top: 28%;
+        left: -7%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 36.5%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 43.5%;
+    }
+
+    #logo {
+        top: 12%;
+        left: -7%;
+    }
+}
+
+@media (min-width: 1900px) {
+    #frontcard {
+        width: 600px;
+    }
+
+    #backcard {
+        width: 600px;
+    }
+
+    #displayname {
+        top: 35%;
+        left: -5.5%;
+    }
+
+    #displaynumber {
+        top: 28%;
+        left: -5.5%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 35.5%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 42.5%;
+    }
+
+    #logo {
+        top: 12%;
+        left: -5.5%;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    #displayname {
+        top: 35%;
+        left: -5%;
+    }
+
+    #displaynumber {
+        top: 28%;
+        left: -5%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 35%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 42%;
+    }
+
+    #logo {
+        top: 12%;
+        left: -5%;
     }
 }
