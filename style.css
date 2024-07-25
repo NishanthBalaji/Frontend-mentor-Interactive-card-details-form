@@ -79,6 +79,21 @@ img#bg {
     font-size: medium;
 }
 
+#displaycvv {
+    position: absolute;
+    top: 13.5%;
+    right: 17.5%;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#logo {
+    position: absolute;
+    top: 21%;
+    left: 15%;
+}
+
 #box2 {
     display: flex;
     align-items: center;
@@ -227,6 +242,14 @@ button {
 
     }
 
+    #displaycvv {
+        top: 63%;
+        left: 47%;
+        font-size: x-large;
+    }
+
+
+
     #box2 {
         position: absolute;
         top: 25%;
@@ -252,6 +275,10 @@ button {
     #displayexpiry {
         margin-right: 2%;
     }
+
+    #displaycvv {
+        margin-right: 2.5%;
+    }
 }
 
 /* Starting from 450px */
@@ -265,6 +292,11 @@ button {
     #displayexpiry {
         margin-right: 4.5%;
     }
+
+    #displaycvv {
+        margin-right: 5%;
+    }
+
 }
 
 /* Starting from 500px */
@@ -277,6 +309,10 @@ button {
 
     #displayexpiry {
         margin-right: 6%;
+    }
+
+    #displaycvv {
+        margin-right: 7.5%;
     }
 }
 
@@ -291,6 +327,10 @@ button {
     #displayexpiry {
         margin-right: 8%;
     }
+
+    #displaycvv {
+        margin-right: 9%;
+    }
 }
 
 /* Starting from 600px */
@@ -304,6 +344,10 @@ button {
     #displayexpiry {
         margin-right: 10%;
     }
+
+    #displaycvv {
+        margin-right: 10.5%;
+    }
 }
 
 /* Starting from 650px */
@@ -315,6 +359,10 @@ button {
     }
 
     #displayexpiry {
+        margin-right: 12%;
+    }
+
+    #displaycvv {
         margin-right: 12%;
     }
 }
@@ -330,6 +378,10 @@ button {
     #displayexpiry {
         margin-right: 14%;
     }
+
+    #displaycvv {
+        margin-right: 13%;
+    }
 }
 
 /* Starting from 750px */
@@ -342,6 +394,10 @@ button {
 
     #displayexpiry {
         margin-right: 14%;
+    }
+
+    #displaycvv {
+        margin-right: 13.8%;
     }
 }
 
@@ -356,6 +412,10 @@ button {
     #displayexpiry {
         margin-right: 16%;
     }
+
+    #displaycvv {
+        margin-right: 14.5%;
+    }
 }
 
 /* Starting from 850px */
@@ -368,6 +428,10 @@ button {
 
     #displayexpiry {
         margin-right: 17%;
+    }
+
+    #displaycvv {
+        margin-right: 15.3%;
     }
 }
 
@@ -382,6 +446,10 @@ button {
     #displayexpiry {
         margin-right: 18%;
     }
+
+    #displaycvv {
+        margin-right: 16%;
+    }
 }
 
 /* Starting from 950px */
@@ -394,6 +462,10 @@ button {
 
     #displayexpiry {
         margin-right: 18.5%;
+    }
+
+    #displaycvv {
+        margin-right: 16.5%;
     }
 }
 
@@ -408,6 +480,10 @@ button {
     #displayexpiry {
         margin-right: 19%;
     }
+
+    #displaycvv {
+        margin-right: 17%;
+    }
 }
 
 /* Starting from 1050px */
@@ -420,6 +496,10 @@ button {
 
     #displayexpiry {
         margin-right: 19.5%;
+    }
+
+    #displaycvv {
+        margin-right: 17.4%;
     }
 }
 
@@ -434,6 +514,10 @@ button {
     #displayexpiry {
         margin-right: 20%;
     }
+
+    #displaycvv {
+        margin-right: 17.9%;
+    }
 }
 
 /* Starting from 1150px */
@@ -447,13 +531,12 @@ button {
     #displayexpiry {
         margin-right: 20.5%;
     }
+
+    #displaycvv {
+        margin-right: 18.4%;
+    }
 }
 
-/* @media (min-width: 1200px) {
-    #displayname {
-        margin-left: 22.5%;
-    }
-} */
 
 @media (min-width: 1200px) {
 
@@ -465,6 +548,16 @@ button {
     #displaynumber {
         top: 28%;
         left: -12%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 40%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 46.5%;
     }
 }
 
@@ -482,7 +575,12 @@ button {
 
     #displayexpiry {
         top: 34.5%;
-        left: 40%;
+        left: 39%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 45.5%;
     }
 }
 
@@ -502,6 +600,11 @@ button {
         top: 34.5%;
         left: 38%;
     }
+
+    #displaycvv {
+        top: 63%;
+        left: 44.8%;
+    }
 }
 
 @media (min-width: 1500px) {
@@ -514,6 +617,16 @@ button {
     #displaynumber {
         top: 28%;
         left: -8.5%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 37.5%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 44.2%;
     }
 }
 
@@ -528,6 +641,16 @@ button {
         top: 28%;
         left: -7.5%;
     }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 37%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 43.8%;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -540,5 +663,15 @@ button {
     #displaynumber {
         top: 28%;
         left: -7%;
+    }
+
+    #displayexpiry {
+        top: 34.5%;
+        left: 36.5%;
+    }
+
+    #displaycvv {
+        top: 63%;
+        left: 43.5%;
     }
 }

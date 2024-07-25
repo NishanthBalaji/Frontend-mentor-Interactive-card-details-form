@@ -56,3 +56,12 @@ year.addEventListener('input', (e) => {
         }
     }
 })
+
+let cvv = document.querySelector('#cvv');
+let displaycvv = document.querySelector('#displaycvv');
+
+cvv.addEventListener('input', () => {
+    if (cvv.value < 1000) {
+        displaycvv.innerText = cvv.value;
+    }
+})
