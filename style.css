@@ -91,7 +91,7 @@ img#bg {
 #logo {
     position: absolute;
     top: 21%;
-    left: 15%;
+    left: 13.5%;
 }
 
 #box2 {
@@ -235,6 +235,14 @@ button {
 
     }
 
+    #logo {
+        position: absolute;
+        top: 12%;
+        left: -12%;
+        width: 120px;
+        height: 60px;
+    }
+
     #displayexpiry {
         top: 34.5%;
         left: 41%;
@@ -268,7 +276,8 @@ button {
 @media (min-width: 400px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 4%;
     }
 
@@ -285,7 +294,8 @@ button {
 @media (min-width: 450px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 6%;
     }
 
@@ -303,7 +313,8 @@ button {
 @media (min-width: 500px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 8%;
     }
 
@@ -320,7 +331,8 @@ button {
 @media (min-width: 550px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 10%;
     }
 
@@ -337,7 +349,8 @@ button {
 @media (min-width: 600px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 12%;
     }
 
@@ -354,7 +367,8 @@ button {
 @media (min-width: 650px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 14%;
     }
 
@@ -371,7 +385,8 @@ button {
 @media (min-width: 700px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 15%;
     }
 
@@ -388,7 +403,8 @@ button {
 @media (min-width: 750px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 16%;
     }
 
@@ -405,7 +421,8 @@ button {
 @media (min-width: 800px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 17%;
     }
 
@@ -422,7 +439,8 @@ button {
 @media (min-width: 850px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 18%;
     }
 
@@ -439,7 +457,8 @@ button {
 @media (min-width: 900px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 19%;
     }
 
@@ -456,7 +475,8 @@ button {
 @media (min-width: 950px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 19.5%;
     }
 
@@ -473,7 +493,8 @@ button {
 @media (min-width: 1000px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 20%;
     }
 
@@ -490,7 +511,8 @@ button {
 @media (min-width: 1050px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 20.5%;
     }
 
@@ -507,7 +529,8 @@ button {
 @media (min-width: 1100px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 21%;
     }
 
@@ -524,7 +547,8 @@ button {
 @media (min-width: 1150px) {
 
     #displayname,
-    #displaynumber {
+    #displaynumber,
+    #logo {
         margin-left: 21.5%;
     }
 
@@ -559,6 +583,11 @@ button {
         top: 63%;
         left: 46.5%;
     }
+
+    #logo {
+        top: 12%;
+        left: -12%;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -581,6 +610,11 @@ button {
     #displaycvv {
         top: 63%;
         left: 45.5%;
+    }
+
+    #logo {
+        top: 12%;
+        left: -11%;
     }
 }
 
@@ -605,6 +639,11 @@ button {
         top: 63%;
         left: 44.8%;
     }
+
+    #logo {
+        top: 12%;
+        left: -9.8%;
+    }
 }
 
 @media (min-width: 1500px) {
@@ -627,6 +666,11 @@ button {
     #displaycvv {
         top: 63%;
         left: 44.2%;
+    }
+
+    #logo {
+        top: 12%;
+        left: -8.8%;
     }
 }
 
@@ -651,6 +695,11 @@ button {
         top: 63%;
         left: 43.8%;
     }
+
+    #logo {
+        top: 12%;
+        left: -7.5%;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -673,5 +722,10 @@ button {
     #displaycvv {
         top: 63%;
         left: 43.5%;
+    }
+
+    #logo {
+        top: 12%;
+        left: -7%;
     }
 }
